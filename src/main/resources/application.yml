@@ -2,6 +2,6 @@ spring:
   datasource: 
     url: jdbc:mysql://localhost:3306/myemployees?allowPublicKeyRetrieval=true&useSSL=false&useTimezone=true&serverTimezone=GMT
     username: root
-    password: ..$akala17
+    password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
     characterEncoding: UTF-8

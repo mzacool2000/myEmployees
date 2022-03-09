@@ -17,7 +17,7 @@ public class Conexion {
     public Connection conectar() {
         try {
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/myemployees?allowPublicKeyRetrieval=true&useSSL=false&useTimezone=true&serverTimezone=GMT&characterEncoding=UTF-8",
-                    "root","..$akala17");
+                    "root","root");
             return con;
         } catch (Exception e) {
             e.printStackTrace (); // Esta excepción arroja poco significado
